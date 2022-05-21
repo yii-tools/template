@@ -8,39 +8,39 @@
 
 [![Build Status](https://github.com/php-forge/template/workflows/build/badge.svg)](https://github.com/php-forge/template/actions?query=workflow%3Abuild)
 [![codecov](https://codecov.io/gh/php-forge/template/branch/main/graph/badge.svg?token=KB6T5KMGED)](https://codecov.io/gh/php-forge/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https://badge-api.stryker-mutator.io/github.com/php-forge/template/master)](https://dashboard.stryker-mutator.io/reports/github.com/php-forge/template/master)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fphp-forge%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/php-forge/template/main)
 [![static analysis](https://github.com/php-forge/template/workflows/static%20analysis/badge.svg)](https://github.com/php-forge/template/actions?query=workflow%3A%22static+analysis%22)
 [![type-coverage](https://shepherd.dev/github/php-forge/template/coverage.svg)](https://shepherd.dev/github/php-forge/template)
+[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
 
-
-## Installation
+## Instalación
 
 ```shell
 composer require <vendor/your-packages>
 ```
 
-## Unit testing
+## Análisis estático
 
-The package is tested with [PHPUnit](https://phpunit.de/). To run tests:
+El código se analiza estáticamente con [Psalm](https://psalm.dev/docs). Para ejecutarlo:
 
 ```shell
-./vendor/bin/phpunit
+./vendor/bin/psalm
 ```
 
-## Mutation testing
+## Pruebas de mutación
 
-The package tests are checked with [Infection](https://infection.github.io/) mutation framework. To run it:
+Las pruebas de mutación se comprueban con [Infection](https://infection.github.io/). Para ejecutarlo:
 
 ```shell
 ./vendor/bin/roave-infection-static-analysis-plugin
 ```
 
-## Static analysis
+## Pruebas unitarias
 
-The code is statically analyzed with [Psalm](https://psalm.dev/docs). To run static analysis:
+Las pruebas unitarias se comprueban con [PHPUnit](https://phpunit.de/). Para ejecutarlo:
 
 ```shell
-./vendor/bin/psalm
+./vendor/bin/phpunit
 ```
 
 ## Licencia
