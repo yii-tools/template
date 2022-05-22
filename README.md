@@ -11,7 +11,6 @@
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fphp-forge%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/php-forge/template/main)
 [![static analysis](https://github.com/php-forge/template/workflows/static%20analysis/badge.svg)](https://github.com/php-forge/template/actions?query=workflow%3A%22static+analysis%22)
 [![type-coverage](https://shepherd.dev/github/php-forge/template/coverage.svg)](https://shepherd.dev/github/php-forge/template)
-[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
 
 ## Instalación
 
@@ -42,6 +41,11 @@ Las pruebas unitarias se comprueban con [PHPUnit](https://phpunit.de/). Para eje
 ```shell
 ./vendor/bin/phpunit
 ```
+
+## Calidad y estilo de código
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5265edb5b21e4b3eb04bf869f4f0ce9f)](https://www.codacy.com/gh/php-forge/template/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=php-forge/template&amp;utm_campaign=Badge_Grade)
+[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
 
 ## Licencia
 
