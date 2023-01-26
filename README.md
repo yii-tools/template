@@ -1,59 +1,63 @@
 <p align="center">
-    <a href="https://github.com/php-forge/template" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/103309199?s=400&u=ca3561c692f53ed7eb290d3bb226a2828741606f&v=4" height="100px">
+    <a href="https://github.com/yii-tools/template" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/121752654?s=200&v=4" height="100px">
     </a>
-    <h1 align="center">PHP Forge - Template</h1>
+    <h1 align="center">Template.</h1>
     <br>
 </p>
 
-[![Build Status](https://github.com/php-forge/template/workflows/build/badge.svg)](https://github.com/php-forge/template/actions?query=workflow%3Abuild)
-[![codecov](https://codecov.io/gh/php-forge/template/branch/main/graph/badge.svg?token=KB6T5KMGED)](https://codecov.io/gh/php-forge/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fphp-forge%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/php-forge/template/main)
-[![static analysis](https://github.com/php-forge/template/workflows/static%20analysis/badge.svg)](https://github.com/php-forge/template/actions?query=workflow%3A%22static+analysis%22)
-[![type-coverage](https://shepherd.dev/github/php-forge/template/coverage.svg)](https://shepherd.dev/github/php-forge/template)
+## Install
 
-## Instalación
+For use create a new repository from this template. For more information see [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
 
-```shell
-composer require <vendor/your-packages>
-```
+Also you can git clone this repository. For more information see [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-## Análisis estático
+## Composer require checker
 
-El código se analiza estáticamente con [Psalm](https://psalm.dev/docs). Para ejecutarlo:
+This package uses [composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) to check if all dependencies are correctly defined in `composer.json`.
+
+To run the checker, execute the following command:
 
 ```shell
-./vendor/bin/psalm
+./vendor/bin/composer-require-checker
 ```
 
-## Pruebas de mutación
+## Mutation testing
 
-Las pruebas de mutación se comprueban con [Infection](https://infection.github.io/). Para ejecutarlo:
+Mutation testing is checked with [Infection](https://infection.github.io/). To run it:
 
 ```shell
 ./vendor/bin/roave-infection-static-analysis-plugin
 ```
 
-## Pruebas unitarias
+## Unit testing
 
-Las pruebas unitarias se comprueban con [PHPUnit](https://phpunit.de/). Para ejecutarlo:
+Unit testing is checked with [PHPUnit](https://phpunit.de/). To run it:
 
 ```shell
 ./vendor/bin/phpunit
 ```
 
-## Calidad y estilo de código
+## Static analysis
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5265edb5b21e4b3eb04bf869f4f0ce9f)](https://www.codacy.com/gh/php-forge/template/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=php-forge/template&amp;utm_campaign=Badge_Grade)
-[![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
+Static analysis is checked with [Psalm](https://psalm.dev/). To run it:
 
-## Licencia
+```shell
+./vendor/bin/psalm
+```
 
-El paquete `php-forge/template` es software libre. Se publica bajo los términos de la Licencia BSD.
-Consulte [`LICENSE`](./LICENSE.md) para obtener más información.
+## CI status
 
-Mantenido por [Terabytesoftw](https://github.com/terabytesoftw).
+[![build](https://github.com/yii-tools/template/actions/workflows/build.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/build.yml)
+[![codecov](https://codecov.io/gh/yii-tools/template/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/template)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main)
+[![StyleCI](https://github.styleci.io/repos/584520921/shield?branch=main)](https://github.styleci.io/repos/584520921?branch=main)
+[![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yiii-tools/forms)
 
-## Nuestras redes sociales
+## License
 
-[![Twitter](https://img.shields.io/badge/twitter-follow-1DA1F2?logo=twitter&logoColor=1DA1F2&labelColor=555555?style=flat)](https://twitter.com/PhpForge)
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+## Our social networks
+
+[![Twitter](https://img.shields.io/badge/twitter-follow-1DA1F2?logo=twitter&logoColor=1DA1F2&labelColor=555555?style=flat)](https://twitter.com/Terabytesoftw)
