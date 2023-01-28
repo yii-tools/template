@@ -12,9 +12,10 @@
         "php": "^8.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "*",
-        "roave/infection-static-analysis-plugin": "*",
-        "vimeo/psalm": "*"
+        "maglnet/composer-require-checker": "^4.3",
+        "phpunit/phpunit": "^9.5",
+        "roave/infection-static-analysis-plugin": "^1.28",
+        "vimeo/psalm": "^5.6"
     },
     "autoload": {
         "psr-4": {
