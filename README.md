@@ -52,6 +52,7 @@ composer run test
 [![codecov](https://codecov.io/gh/yii-tools/template/branch/main/graph/badge.svg?token=MF0XUGVLYC)](https://codecov.io/gh/yii-tools/template)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii-tools%2Ftemplate%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main)
 [![StyleCI](https://github.styleci.io/repos/584520921/shield?branch=main)](https://github.styleci.io/repos/584520921?branch=main)
+[![static analysis](https://github.com/yii-tools/template/actions/workflows/static.yml/badge.svg)](https://github.com/yii-tools/template/actions/workflows/static.yml)
 [![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yiii-tools/forms)
 
 ## License
