@@ -6,45 +6,19 @@
     <br>
 </p>
 
-## Install
+## Requirements
 
-For use create a new repository from this template. For more information see [Creating a repository from a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template).
+The minimun version of `PHP` required by this package is `PHP 8.1`.
 
-Also you can git clone this repository. For more information see [Cloning a repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+For install this package, you need [composer](https://getcomposer.org/).
 
-## Checking dependencies
+## Usage
 
-This package uses [composer-require-checker](https://github.com/maglnet/ComposerRequireChecker) to check if all dependencies are correctly defined in `composer.json`.
-
-To run the checker, execute the following command:
-
-```shell
-composer run check-dependencies
-```
-
-## Mutation testing
-
-Mutation testing is checked with [Infection](https://infection.github.io/). To run it:
-
-```shell
-composer run mutation
-```
-
-## Static analysis
-
-The code is statically analyzed with [Psalm](https://psalm.dev/). To run static analysis:
-
-```shell
-composer run psalm
-```
+[Check the documentation docs](/docs/README.md) to learn about usage.
 
 ## Testing
 
-The code is tested with [PHPUnit](https://phpunit.de/). To run tests:
-
-```
-composer run test
-```
+[Check the documentation testing](/docs/testing.md) to learn about testing.
 
 ## CI status
 
@@ -55,10 +29,10 @@ composer run test
 [![type-coverage](https://shepherd.dev/github/yii-tools/template/coverage.svg)](https://shepherd.dev/github/yii-tools/template)
 [![StyleCI](https://github.styleci.io/repos/494495136/shield?branch=main)](https://github.styleci.io/repos/494495136?branch=main)
 
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
 ## Our social networks
 
 [![Twitter](https://img.shields.io/badge/twitter-follow-1DA1F2?logo=twitter&logoColor=1DA1F2&labelColor=555555?style=flat)](https://twitter.com/Terabytesoftw)
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

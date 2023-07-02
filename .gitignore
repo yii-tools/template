@@ -13,14 +13,12 @@
 
 # phpunit
 phpunit.phar
-/phpunit.xml
 .phpunit.result.cache
+.phpunit.cache
+phpunit.xlm
 
 #yii3 config packages
 /config/packages
 
 # windows thumbnail cache
 Thumbs.db
-
-# package-lock.json
-package-lock.json
