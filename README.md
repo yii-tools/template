@@ -7,9 +7,6 @@
 </p>
 
 <p align="center">
-    <a href="https://www.php.net/releases/8.1/en.php" target="_blank">
-        <img src="https://img.shields.io/badge/PHP-%3E%3D8.1-787CB5" alt="php-version">
-    </a>
     <a href="https://github.com/yii-tools/template/actions/workflows/build.yml" target="_blank">
         <img src="https://github.com/yii-tools/template/actions/workflows/build.yml/badge.svg" alt="PHPUnit">
     </a>
@@ -54,6 +51,7 @@ to the require-dev section of your `composer.json` file.
 
 ## Support versions
 
+[![PHP81](https://img.shields.io/badge/PHP-%3E%3D8.1-787CB5)](https://www.php.net/releases/8.1/en.php)
 [![Yii30](https://img.shields.io/badge/Yii%20version-3.0-blue)](https://yiiframework.com)
 
 ## Testing
