@@ -16,13 +16,13 @@
     <a href="https://dashboard.stryker-mutator.io/reports/github.com/yii-tools/template/main" target="_blank">
         <img src="https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Fyii2-extensions%2Fasset-bootstrap5%2Fmain" alt="Infection">
     </a>
-    <a href="(https://github.com/yii-tools/template/actions/workflows/static.yml" target="_blank">
+    <a href="https://github.com/yii-tools/template/actions/workflows/static.yml" target="_blank">
         <img src="https://github.com/yii-tools/template/actions/workflows/static.yml/badge.svg" alt="Psalm">
     </a>
-    <a href="(https://shepherd.dev/github/yii-tools/template" target="_blank">
+    <a href="https://shepherd.dev/github/yii-tools/template" target="_blank">
         <img src="https://shepherd.dev/github/yii-tools/template/coverage.svg" alt="Psalm Coverage">
     </a>
-    <a href="(https://github.styleci.io/repos/494495136?branch=main" target="_blank">
+    <a href="https://github.styleci.io/repos/494495136?branch=main" target="_blank">
         <img src="https://github.styleci.io/repos/494495136/shield?branch=main" alt="Style ci">
     </a>           
 </p>
