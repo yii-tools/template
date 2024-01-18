@@ -10,6 +10,7 @@ on:
       - 'phpunit.xml.dist'
 
   push:
+    branches: ['main']
     paths-ignore:
       - 'docs/**'
       - 'README.md'
@@ -19,11 +20,13 @@ on:
       - 'infection.json.dist'
       - 'phpunit.xml.dist'
 
-name: static analysis
+name: ecs
 
 jobs:
-  psalm:
-    uses: php-forge/actions/.github/workflows/psalm.yml@main
+  easy-coding-standard:
+    uses: php-forge/actions/.github/workflows/ecs.yml@main
+    secrets:
+      AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
     with:
       os: >-
         ['ubuntu-latest']
