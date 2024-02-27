@@ -47,21 +47,20 @@ to the require-dev section of your `composer.json` file.
 
 ## Usage
 
-[Check the documentation docs](/docs/README.md) to learn about usage.
+[Check the documentation docs](docs/README.md) to learn about usage.
+
+## Testing
+
+[Check the documentation testing](docs/testing.md) to learn about testing.
 
 ## Support versions
 
 [![PHP81](https://img.shields.io/badge/PHP-%3E%3D8.1-787CB5)](https://www.php.net/releases/8.1/en.php)
-[![Yii30](https://img.shields.io/badge/Yii%20version-3.0-blue)](https://yiiframework.com)
 
-## Testing
+## License
 
-[Check the documentation testing](/docs/testing.md) to learn about testing.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ## Our social networks
 
 [![Twitter](https://img.shields.io/badge/twitter-follow-1DA1F2?logo=twitter&logoColor=1DA1F2&labelColor=555555?style=flat)](https://twitter.com/Terabytesoftw)
-
-## License
-
-The MIT License. Please see [License File](LICENSE.md) for more information.
